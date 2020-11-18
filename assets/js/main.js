@@ -34,6 +34,15 @@ console.log(lista);
 for (var i = 0; i < lista.length; i++) {
   //verifichiamo che il nuovo cognome sia nella lista
   console.log(lista[i]);
+}
 
+
+
+
+//adesso dobbiamo prendere gli elementi di qst lista ordinata e trasferirli nel ns foglio html.
+for (var i = 0; i < lista.length; i++) {
+  var li = lista[i];
+  var el_li = document.getElementById('lista_ordinata').innerHTML;
+  document.getElementById('lista_ordinata').innerHTML = el_li + "<li>" + li + "</li>";
 
 }
