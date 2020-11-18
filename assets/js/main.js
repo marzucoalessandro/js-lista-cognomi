@@ -14,7 +14,7 @@
 
 //3 con il comando push inseriamo il nuovo cognome nella lista array
 
-//3 impostiamo un ciclo for: chiediamo di aggiungere un elemento alla lista dell'array.
+//3 impostiamo un ciclo for: chiediamo di ordinare per lettera la stampa  dell'array.
 
 var lista = ["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
 //verifichiamo l'array in console
@@ -24,13 +24,14 @@ var domanda = prompt("quale è il tuo cognome?");
 //verifichiamo la var nella console
 console.log(domanda);
 
-lista.push = domanda;
+lista.push(domanda);
+console.log(lista);
 
 
 
 for (var i = 0; i < lista.length; i++) {
   //verifichiamo che il nuovo cognome sia nella lista
-  console.log(lista[i]);
-  
+  console.log(lista.sort[i]);
+
 
 }
