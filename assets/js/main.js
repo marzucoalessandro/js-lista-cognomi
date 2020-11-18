@@ -17,6 +17,7 @@
 //3 impostiamo un ciclo for: chiediamo di ordinare per lettera la stampa  dell'array.
 
 var lista = ["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
+
 //verifichiamo l'array in console
 console.log(lista);
 
@@ -25,13 +26,14 @@ var domanda = prompt("quale è il tuo cognome?");
 console.log(domanda);
 
 lista.push(domanda);
+lista.sort();
 console.log(lista);
 
 
 
 for (var i = 0; i < lista.length; i++) {
   //verifichiamo che il nuovo cognome sia nella lista
-  console.log(lista.sort[i]);
+  console.log(lista[i]);
 
 
 }
